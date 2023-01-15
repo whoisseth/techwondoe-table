@@ -4,14 +4,9 @@
       "items": 20
     },
     "avatar": {
-        "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
-      },
-    "name": {
-      "loremWords": {
-        "minLength": 5,
-        "maxLength": 20
-      }
+      "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
     },
+    "firstName": { "regexp": "[A-Z][a-z]{5,10}" },
     "email": {
       "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
     },
