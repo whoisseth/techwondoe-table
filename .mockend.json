@@ -1,0 +1,28 @@
+{
+  "user": {
+    "_": {
+      "items": 100
+    },
+    "img": {
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+    },
+    "name": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 20
+      }
+    },
+    "email": {
+      "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+    },
+    "role": {
+      "string": ["Admin", "Sales Leader", "Sales Rep"]
+    },
+    "lastLogin": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
+    }
+  }
+}
